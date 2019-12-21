@@ -1,0 +1,35 @@
+
+/*公共头部区域CSS*/
+.header {
+    background: #393D49;
+    height: 70px;
+    line-height: 70px;
+}
+
+.layui-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    background-color: #393D49;
+    color: #fff;
+    border-radius: 0.1px;
+    font-size: 0;
+    box-sizing: border-box;
+}
+
+.layui-main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after {
+    height: 4px !important;
+    background-color: #5FB878;
+}
+
+.layui-nav .layui-nav-item {
+    margin-left: 30px;
+    line-height: 70px;
+}
+
