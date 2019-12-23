@@ -2,53 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb4117a-bcc9-4e49-8523-cfd06ae05851" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/js/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/SpringBootBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/SpringBootBlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/config/WebMvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/config/WebMvcConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/core/ApiVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/core/ApiVersionCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/dao/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inid/lzh/blog/springbootblog/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/img/00-icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/img/00-icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/img/00-icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/static/img/00-icon4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/template/controller-restful.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/template/controller.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/template/service-impl.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/template/service.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/static/css/base.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,23 +84,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/static/js" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\img" />
-      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\js" />
-      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\css" />
-      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates" />
       <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\js" />
+      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\img" />
+      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\fonts" />
+      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static\css" />
+      <recent name="F:\SpringBoot-GuanWang\SpringBoot-BaseWork\src\main\resources\templates\static" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringBootBlogApplication">
@@ -253,7 +234,8 @@
       <workItem from="1576835213242" duration="2407000" />
       <workItem from="1576890858442" duration="5090000" />
       <workItem from="1576899989872" duration="6767000" />
-      <workItem from="1576914630727" duration="11354000" />
+      <workItem from="1576914630727" duration="11681000" />
+      <workItem from="1577064295362" duration="22843000" />
     </task>
     <servers />
   </component>
@@ -298,38 +280,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576921845237" />
-    <state width="1876" height="326" key="GridCell.Tab.0.bottom" timestamp="1576927337258">
+    <state width="1876" height="210" key="GridCell.Tab.0.bottom" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337258" />
-    <state width="1876" height="326" key="GridCell.Tab.0.center" timestamp="1576927337257">
+    <state width="1876" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.0.center" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337257" />
-    <state width="1876" height="326" key="GridCell.Tab.0.left" timestamp="1576927337257">
+    <state width="1876" height="210" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.0.left" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337257" />
-    <state width="1876" height="326" key="GridCell.Tab.0.right" timestamp="1576927337257">
+    <state width="1876" height="210" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.0.right" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337257" />
-    <state width="1876" height="326" key="GridCell.Tab.1.bottom" timestamp="1576927337258">
+    <state width="1876" height="210" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.1.bottom" timestamp="1577091383838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337258" />
-    <state width="1876" height="326" key="GridCell.Tab.1.center" timestamp="1576927337258">
+    <state width="1876" height="210" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383838" />
+    <state width="1876" height="210" key="GridCell.Tab.1.center" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337258" />
-    <state width="1876" height="326" key="GridCell.Tab.1.left" timestamp="1576927337258">
+    <state width="1876" height="210" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.1.left" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337258" />
-    <state width="1876" height="326" key="GridCell.Tab.1.right" timestamp="1576927337258">
+    <state width="1876" height="210" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
+    <state width="1876" height="210" key="GridCell.Tab.1.right" timestamp="1577091383837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576927337258" />
+    <state width="1876" height="210" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577091383837" />
     <state width="1574" height="356" key="GridCell.Tab.2.bottom" timestamp="1576913671034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -350,14 +332,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="184" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1576920422503" />
-    <state x="463" y="151" key="SettingsEditor" timestamp="1576919561953">
+    <state x="463" y="151" key="SettingsEditor" timestamp="1577064390690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576919561953" />
-    <state x="652" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1576914656817">
+    <state x="463" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577064390690" />
+    <state x="652" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1577064358432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576914656817" />
+    <state x="652" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577064358432" />
     <state x="616" y="235" key="run.anything.popup" timestamp="1576910181970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

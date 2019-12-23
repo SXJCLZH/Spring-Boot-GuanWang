@@ -3,10 +3,11 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title th:text="${title}"></title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="layui,ui,ui框架,前端框架,JS组件">
+    <meta name="description" content="layui 是一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写与组织形式，门槛极低，拿来即用。其外在极简，却又不失饱满的内在，体积轻盈，组件丰盈，从核心代码到 API 的每一处细节都经过精心雕琢，非常适合界面的快速开发。">
+
     <link th:href="@{/static/css/layui.css}" rel="stylesheet">
     <link th:href="@{/static/css/base.css}" rel="stylesheet">
 
@@ -15,55 +16,124 @@
 
 <body>
 
-    <div th:include="head.html"></div>
+<div th:include="head.html"></div>
 
-    <div class="layui-carousel" id="test1">
-        <div carousel-item>
-            <div>条目1</div>
-            <div>条目2</div>
-            <div>条目3</div>
-            <div>条目4</div>
-            <div>条目5</div>
+
+<div>
+
+    <div class="layui-carousel" id="banners" lay-filter="banners" >
+        <div carousel-item >
+            <div class="banner" style="background: url('http://file.cmycgzs.com/newbanner1.jpg')center center; "></div>
+            <div class="banner" style="background: url('http://file.cmycgzs.com/newbanner2.jpg')center center; "></div>
+            <div class="banner" style="background: url('http://file.cmycgzs.com/newbanner3.jpg')center center; "></div>
+            <div class="banner" style="background: url('http://file.cmycgzs.com/newbanner4.jpg')center center; "></div>
         </div>
+
+        <div class="banner_select_div">
+            <ul class="banner_ul">
+                <li class="banneritem bannerselect ">
+                    <img src="static/img/00-icon1.png" class="selectimg">
+                    <p class="selecttitle_one"> APP开发</p>
+                    <p class="selecttitle_two"> Andorid IOS 快应用</p>
+                </li>
+                <li class="banneritem ">
+                    <img src="static/img/00-icon2.png" class="selectimg">
+                    <p class="selecttitle_one"> 网站建设</p>
+                    <p class="selecttitle_two"> PC H5 公众号 一条龙服务</p>
+                </li>
+                <li class="banneritem">
+                    <img src="static/img/00-icon3.png" class="selectimg">
+                    <p class="selecttitle_one"> 小程序定制 </p>
+                    <p class="selecttitle_two"> 市面上所有小程序均可开发</p>
+                </li>
+                <li class="banneritem" style="border: none">
+                    <img src="static/img/00-icon4.png" class="selectimg">
+                    <p class="selecttitle_one"> 人工智能 </p>
+                    <p class="selecttitle_two"> 驾驭未来新科技前沿</p>
+                </li>
+            </ul>
+
+        </div>
+
     </div>
+
+
+</div>
+
 
 <!--    <div class="alert alert-success" role="alert" th:text="${name}"> </div>-->
 
-    <div class="layui-main" style="border: solid 1px black ;height: 520px ">  </div>
+<div class="layui-main" style="height: 520px ">
 
 
-
-    <div th:include="foot.html"></div>
-
+</div>
 
 
-    <script th:src="@{static/js/jquery.min.js}"></script>
-    <script th:src="@{static/js/layui.js}"></script>
+<div th:include="foot.html"></div>
 
-    <script>
 
-        layui.use('element', function(){
-            var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+<script th:src="@{static/js/jquery.min.js}"></script>
+<script th:src="@{static/js/layui.js}"></script>
 
-            //监听导航点击
-            element.on('nav(demo)', function(elem){
-                console.log(elem)
-                layer.msg(elem.text());
-            });
+<script>
+
+    layui.use('element', function () {
+        var element = layui.element; //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+        //监听导航点击
+        element.on('nav(demo)', function (elem) {
+            console.log(elem)
+            layer.msg(elem.text());
+        });
+    });
+
+    //设置轮播图
+
+    var selectul = $(".banner_ul").children("li");
+    var selectindex = 0;
+
+    layui.use('carousel', function () {
+        var carousel = layui.carousel;
+        //建造实例
+        let windowswitht = $(window).width();
+        var banner = carousel.render({
+            elem: '#banners'
+            , fade: "updown"//default（左右切换）updown（上下切换）fade（渐隐渐显切换）
+            , width: "100%" //设置容器宽度
+            , arrow: 'none' //始终显示箭头 hover（悬停显示） always（始终显示） none（始终不显示）
+            , autoplay: true //是否自动切换
+            , interval: 2000 //自动切换间隔
+            , indicator: 'none' //指示器的位置
+            , height: "520px"
+            , width: windowswitht
+            ,full:false //是否全屏轮播
         });
 
-        layui.use('carousel', function(){
-            var carousel = layui.carousel;
-            //建造实例
-            carousel.render({
-                elem: '#test1'
-                ,width: '100%' //设置容器宽度
-                ,arrow: 'none' //始终显示箭头 hover（悬停显示） always（始终显示） none（始终不显示）
-                // ,anim: 'updown' //切换动画方式
-            });
+        //轮播图切换事件
+        carousel.on('change(banners)', function (res) {
+            $(selectul [res.prevIndex]).removeClass("bannerselect");
+            $(selectul [res.index]).addClass("bannerselect");
+            selectindex = res.index;
         });
 
-    </script>
+        //设置hover选中轮播图
+        for (let i = 0; i < selectul.length; i++) {
+            $(selectul [i]).hover(function () {
+                if (i != selectindex) {
+                    $(selectul [selectindex]).removeClass("bannerselect");
+                    selectindex = i;
+                    $(selectul [selectindex]).addClass("bannerselect");
+                    banner.reload({
+                        index: selectindex
+                    });
+                }
+            });
+        }
+
+    });
+
+
+</script>
 
 </body>
 
